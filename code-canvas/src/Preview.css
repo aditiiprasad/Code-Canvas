@@ -1,0 +1,18 @@
+.preview {
+    width: 48%;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .preview h2 {
+    text-align: center;
+    color: #90a955;;
+  }
+  
+  .preview-content {
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 1.5;
+    color: whitesmoke;
+  }
+  

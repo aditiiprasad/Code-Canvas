@@ -1,0 +1,12 @@
+.editor {
+    width: 48%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    color: #90a955;
+  }
+  
+  .editor textarea {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
