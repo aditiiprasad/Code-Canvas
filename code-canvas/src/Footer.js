@@ -10,13 +10,13 @@ const Footer = () => {
         <p className="footer-tagline">Crafted with 💖 by Aditi</p>
       </div>
       <div className="social-links">
-        <a href="https://github.com/aditi" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/aditiiprasad" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/aditi" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/aditiiprasad" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <a href="mailto:aditi@example.com">
+        <a href="mailto:aditi03prasad@gmail.com">
           <FaEnvelope />
         </a>
         <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
