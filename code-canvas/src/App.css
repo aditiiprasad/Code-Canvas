@@ -2,19 +2,21 @@
   font-family: Arial, sans-serif;
   justify-content: center;
   
-  background-color: black;
+  background-color: #161a1d;
 }
 
 .editor-container {
   display: flex;
   justify-content: space-between;
   height: 80vh;
-  box-shadow: 0 4px 8px #ecf39e, 0 2px 4px #ecf39e; 
-  margin: 10px;
-  border-radius: 8px;
+  
+  
+  
   padding: 10px;
-  border: 2px solid #ecf39e;
+ 
   border-radius: 8px;
+  background-color: #0b090a;
+  margin: 20px;
   
 
 }
@@ -23,19 +25,19 @@ textarea {
   width: 100%;
   height: 85%;
   font-size: 1rem;
-  border: 2px solid #90a955;
+  
   border-radius: 8px;
   resize: none;
   font-family: 'Courier New', Courier, monospace;
   background-color: #001219;
-  color: aliceblue;
-  box-shadow: inset 0 2px 4px #90a955, 0 4px 6px #90a955; 
-  transition: all 0.3s ease-in-out;
+  color: whitesmoke;
+  
+  transition: all 0.1s ease-in-out;
 }
 
-textarea:focus {
+textarea:hover {
   outline: none;
-  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.1), 0 0 10px rgba(72, 183, 169, 0.6); 
+  box-shadow: inset 0 2px 4px whitesmoke, 0 4px 6px white; 
 }
 
 .export-buttons {
@@ -47,17 +49,17 @@ textarea:focus {
 
 button {
   padding: 10px 20px;
-  background: linear-gradient(145deg, hsl(123, 82%, 15%),  #90a955); 
-  color: white;
-  border: none;
+  background:  #004e98; 
+  color:gainsboro;
+  
   border-radius: 6px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1); 
-  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  transition: all 0.1s ease;
 }
 
 button:hover {
-  border: 2px solid  #90a955;
+  border: 2px solid  #004e98;
   background: transparent; 
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); 
   transform: translateY(-2px); 
@@ -67,3 +69,21 @@ button:active {
   transform: translateY(1px); 
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.stats-container {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color:#004e98 ;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: #22282c;
+}
+
+.stats-container p {
+  margin: 5px 0;
+}
+
+
+

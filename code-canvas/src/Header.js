@@ -10,8 +10,8 @@ const Header = () => {
         <img src={logo} alt="Logo" className="logo" />
       </div>
       <h1 className="typewriter">Code Canvas</h1>
-      <p className="developed-by">Developed by Aditi</p>
-      <div className="social-links">
+      
+      <div className='links'>
         <a 
           href="https://github.com/aditiiprasad" 
           target="_blank" 

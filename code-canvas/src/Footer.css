@@ -4,18 +4,17 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: transparent;
+    background-color: rgb(10, 92, 155);
     color: #ffffff;
     border-radius: 8px 8px 0 0 ;
-    box-shadow: 0 -4px 10px #90a955;
-    border: 2px solid #90a955;
+    
     margin-top: 20px;
   }
   
   .footer-content {
     text-align: center;
     margin-bottom: 10px;
-    color: #90a955;
+    color: #080b01;
   }
   
   .footer p {
@@ -33,14 +32,14 @@
   }
   
   .social-links a {
-    color:#90a955;
+    color:whitesmoke;
     font-size: 1.5rem;
     text-decoration: none;
     transition: transform 0.2s ease, color 0.2s ease;
   }
   
   .social-links a:hover {
-    color: white;
+    color:black;
     transform: scale(1.1);
   }
   
